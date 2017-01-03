@@ -2,7 +2,7 @@
 ##  Build a Portfolio Project Rubric
 * Double Click on the portfolio'Folder'
 
-> First you will the framework folder inside that folder.
+> First you will open the framework folder inside that folder.
 > Double Click on the open the 'toplist folder'
 > Then inside that folder Double Click on 'test.html'
 - Then is going to open the webbased out look
