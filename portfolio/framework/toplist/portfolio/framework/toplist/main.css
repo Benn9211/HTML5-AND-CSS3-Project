@@ -1,0 +1,360 @@
+/***CSS DOC***/
+/*
+ *
+ * Diffrent Browers boader boxes that works any platform
+ */
+
+*{
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+*{
+    margin:0px;
+    padding:0px;
+    color: white;
+}
+/*
+ *
+ * Row Col
+ *
+ */
+
+.row {
+    width:100%;
+    display:flex;flex-wrap:wrap;
+    font-size: 14px;
+    display: left;
+}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width:16.66%;
+}
+
+.col-3 {
+    width: 25%;
+    margin: 8px 0 8px 0;
+}
+
+.col-4 {
+    width:33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width:50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width:66.66%;
+}
+
+.col-9 {
+    width: 75%;
+    font-size: 12px;
+    padding: 10px 5px 10px 5px;
+    color: white;
+
+}
+.col-10 {
+    width:83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width:100%;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+/*
+ *
+ * Class IceAge
+ *
+ */
+
+.ICEAGE {
+
+    "display:block; margin-left: auto; margin-right: auto;"
+    padding-right: 10px;
+}
+
+
+
+/*
+ *
+ * Body Html
+ *
+ */
+
+body, html {
+  margin: 0px;
+  padding: 2px;
+  width: 100%;
+  height: 100%;
+
+}
+body {
+font-family: 'Shrikhand', cursive;
+  color: #000000;
+  background-image: url(https://www.walldevil.com/wallpapers/a76/ice-mountain-lake-west-virginia-usa.jpg);
+  background-repeat:repeat;
+}
+body ul ul{
+    display: none;
+}
+body ul li:hover> ul{
+display: block;
+}
+body ul ul ul ul li {
+    display: block;
+}
+body ul ul {
+    position: absolute;
+
+}
+body,span,style {
+    font-size:25px;
+    color:#fff;
+    background-color:#1286e0;
+}
+body,footer{
+float: left;
+}
+
+#p3,style {
+    padding: 10px; page-break-inside: 20px;color: white;
+
+}
+
+/*
+ *
+ * Nav Bar
+ *
+ */
+.nav_bar {
+    text-transform: uppercase;
+    list-style: none;
+    border: 1px solid #000000;
+    background-color: #1286e0;
+    color: white;
+    position: relative;
+
+}
+.nav_bar >ul >li {
+
+    background-color: #3b4663;
+    color: #000000;
+    list-style: none;
+    text-align: center middle;
+    width: 100%;
+    margin-right: 400px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 0px 5px 0px ;
+    -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+     border-radius: 0px;
+     text-align: center;
+     margin-top:0px;
+
+
+}
+
+.nav_bar li  {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+}
+
+.nav_bar  li  hover: a {
+
+    color: white;
+    text-decoration:none;
+    margin-left: none;
+    margin-right: none;
+}
+.nav_bar ul li:hover ul{
+    display: block;
+}
+
+}
+.nav_bar li a:hover > ul{
+    display: none;
+   background-color: #c1c1c1;
+
+}
+.nav_bar > img {
+    padding:900px 900px 900px 900px;
+    -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+     border-radius: 0px;
+     text-align: center;
+     margin-top:0px;
+}
+.nav_bar ul ul{
+    display: none;
+}
+
+/*
+ *
+ * searchBar
+ *
+ */
+
+#searchBar {
+
+    border: 1px solid #000000;
+    border-right:none;
+    font-size: 16px;
+    padding:10px;
+    margin-top:20px;
+      outline: none;
+    width: 250px;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-top left: 0px;
+    -moz-border-radius-bottom left: 0px;
+     border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+
+}
+
+#searchBtn {
+    border: 1px solid #000000;
+    font-size: 16px;
+    padding: 12px;
+    background: #f1d829;
+    margin-right: -5px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-bottom-right-radius:0px;
+    -moz-border-radius-top right: 0px;
+    -moz-border-radius-bottom right: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+
+}
+
+#searchBtn:hover {
+    background: #f6e049;
+}
+
+/*
+ *
+ * section
+ *
+ */
+ .section {
+    font-size: 15px;
+ }
+/*
+ *
+ * Footer
+ *
+ */
+
+
+.footer {
+    text-transform: uppercase;
+    list-style: none;
+    border: 1px solid #000000;
+    background-color: #1286e0;
+    color: white;
+    position: relative;
+
+}
+.footer >ul >li {
+
+    background-color: #3b4663;
+    color: #000000;
+    list-style: none;
+    text-align: center middle;
+    width: 100%;
+    margin-right: 400px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 0px 5px 0px ;
+    -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+     border-radius: 0px;
+     text-align: center;
+     margin-top:0px;
+
+
+}
+
+.footer li  {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+}
+
+.footer  li  hover: a {
+
+    color: white;
+    text-decoration:none;
+    margin-left: none;
+    margin-right: none;
+}
+.footer ul li:hover ul{
+    display: block;
+}
+
+}
+.footer li a:hover > ul{
+    display: none;
+   background-color: #c1c1c1;
+
+}
+.footer > img {
+    padding:900px 900px 900px 900px;
+    -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+     border-radius: 0px;
+     text-align: center;
+     margin-top:0px;
+}
+.footer ul ul{
+    display: none;
+
+
+}
+.footer a {
+    color: #000000;
+    text-decoration:none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer a: hover {
+
+    color: #000000;
+    text-decoration: underline;
+}
+
+
