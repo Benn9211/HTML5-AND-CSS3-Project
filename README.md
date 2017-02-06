@@ -1,4 +1,4 @@
-# Udacity-haml and CSS
+# Udacity-html and CSS
 ##  Build a Portfolio Project Rubric
 * Double Click on the portfolio'Folder'
 
