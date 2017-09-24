@@ -1,4 +1,4 @@
-# UDACITY HTML5 AND CSS5
+# UDACITY HTML5 AND CSS3
 
 ##  Build a Portfolio Project Rubric
 * Double Click on the portfolio'Folder'
