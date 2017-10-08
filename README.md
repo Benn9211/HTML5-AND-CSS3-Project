@@ -1,6 +1,6 @@
 # UDACITY HTML5 AND CSS3
 
-##  Build a Portfolio Project Rubric
+## Build a Portfolio Project Rubric
 * Double Click on the portfolio'Folder'
 - First you will open the framework folder inside that folder.
 - Double Click on the open the 'toplist folder'
